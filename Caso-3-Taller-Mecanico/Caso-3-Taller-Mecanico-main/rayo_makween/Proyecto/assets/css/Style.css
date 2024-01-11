@@ -1,0 +1,218 @@
+
+body{
+    background: #4CA1AF;  
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF); 
+}
+
+.borde{
+    border: solid 2px black;
+    text-align: center;
+    display: block;
+    width: 70%;
+    margin: 25px auto;
+    background-color: #C4E0E5;
+}
+
+
+body > section > article:nth-child(1){
+    display: block;
+    text-align: center;
+    width: 30%;
+    border: solid 1px black;
+    margin: 15% auto;
+    background-color: whitesmoke;
+}
+
+body>form{
+    display: block;
+    text-align: center;
+    width: 30%;
+    border: solid 1px black;
+    margin: 15% auto;
+    background-color: whitesmoke;
+}
+
+section{
+    display: flex;
+    width: 600px;
+    height: 430px;
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5 ease;
+}
+
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+body{
+    background: #4CA1AF;  
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF); 
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF);
+}
+
+#descripcion{
+    resize: none;
+}
+
+.centrado{
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.borde{
+        border: solid 2px black;
+        text-align: center;
+        display: block;
+        width: 70%;
+        margin: 25px auto;
+        background-color: #C4E0E5;
+}
+
+.log{
+    background-color: whitesmoke;
+    padding: 12px;
+}
+
+.cont{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container-form{
+    width: 100%;
+    max-width: 1100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+}
+
+.container-form h2{
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.container-form p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+.container-form a i{
+    color: black;
+    margin-right: 10px;
+}
+
+.container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #C4E0E5;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+    max-width: 530px;
+    min-width: 530px;
+}
+.container-form form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+.container-form .btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: cornflowerblue;
+    color: whitesmoke;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+
+}
+ body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    margin-top: 100px;
+    font-weight: 100px;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.container .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.container .card img{
+    width: 330px;
+    height: 220px;
+}
+.container .card h4{
+    font-weight: 600;
+}
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+.container .card a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #3439db;
+}
+
