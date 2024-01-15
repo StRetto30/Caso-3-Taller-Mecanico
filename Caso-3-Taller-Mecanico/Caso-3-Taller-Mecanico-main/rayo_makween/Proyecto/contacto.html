@@ -33,19 +33,16 @@
                             <button class="btn btn-outline-success" type="submit">Search</button>
                         </form>
                     </ul>
-                    <ul class="nav justify-content-end">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Iniciar sesion
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="./inicio-sesion.html">Inicio sesión</a></li>
-                                <li><a class="dropdown-item" href="./Inicio-sesion-emp.html">Inicio sesión empleado </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
+                    <li class="nav dropdown position-absolute end-0">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Iniciar sesion
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./registro.html">Registate</a></li>
+                            <li><a class="dropdown-item" href="./inicio-sesion.html">Inicio sesión</a></li>
+                        </ul>
+                    </li>
                 </div>
             </div>
         </div>
@@ -70,10 +67,14 @@
             <input type="text" name="nombre" placeholder="Ingrese Su Nombre" class="campo">
             <input type="email" name="correo" placeholder="Ingrese Su Correo" class="campo">
             <textarea name="mensaje" placeholder="Ingrese su mensale" cols="100" rows="100"></textarea>
+            <br>
             <input type="submit" name="Enviar" value="enviar mensaje" class="btn-enviar">
         </form>
     </div>
-
+    <br>
+    <br>
+    <br>
+    <br>
     <footer>
         <div class="container-fluid">
             <div class="row p-5 bg-secondary text-white">
